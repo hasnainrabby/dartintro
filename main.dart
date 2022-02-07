@@ -18,7 +18,7 @@ main()
   int b = 100;
   double  c = 10.5;
 
- var Additon = a + b;                                                   //Operators +,-,*,/,%
+ var Additon = a + b;                                                   //Arithmetic Operators +,-,*,/,%
  var sub = b - a;
  var multiplication = a * c;
  var division = b/a;
