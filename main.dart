@@ -27,10 +27,22 @@ main()
 
 
 
-  print("${name.toUpperCase()} comes from $country. He is $age years old. His weights is $weight KG.");  //Concatenation - joining strings.
+  print("${name.toUpperCase()} comes from $country.\n He is $age years old.\n His weights is $weight KG.\n");  //Concatenation - joining strings.
 
   print(isTrue);
   print(isFalse);
 
-  print("$Additon,$sub,$multiplication,$division,$remainder");
+  print("$Additon,\n $sub,\n $multiplication,\n $division, \n $remainder");
+
+  print(b >=age );                                                        // Relational Operators ==,!=,<,>,<=,>=
+  
+  //if statement
+
+  if(weight <= 75){
+    print("It's perfect.");
+  }else
+    {
+      print("It's not perfect.");
+    }
+
 }
