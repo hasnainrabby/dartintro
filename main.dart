@@ -47,15 +47,15 @@ main()
 
   //Logical Operator ( !, ||, &&)
 
-  if ( !(Additon != 150) || age >=30 ){     //OR (||) ----> Only one side needs to be true then the expression is true.
-    print("It's wrong.");
-  }else{
+  if ( !(Additon != 150) || age <=30 ){     //OR (||) ----> Only one side needs to be true then the expression is true.
     print("It's correct.");
+  }else{
+    print("It's wrong.");
   }
   if ( (Additon != 150) && remainder == 5.5){     //AND (&&) ----> both sides are true then the expression is true.
-    print("It's wrong.");
-  }else{
     print("It's correct.");
+  }else{
+    print("It's wrong.");
   }
 
 }
