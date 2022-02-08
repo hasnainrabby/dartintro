@@ -45,4 +45,17 @@ main()
       print("It's not perfect.");
     }
 
+  //Logical Operator ( !, ||, &&)
+
+  if ( !(Additon != 150) || age >=30 ){     //OR (||) ----> Only one side needs to be true then the expression is true.
+    print("It's wrong.");
+  }else{
+    print("It's correct.");
+  }
+  if ( (Additon != 150) && remainder == 5.5){     //AND (&&) ----> both sides are true then the expression is true.
+    print("It's wrong.");
+  }else{
+    print("It's correct.");
+  }
+
 }
