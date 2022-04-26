@@ -3,12 +3,14 @@ main()                                                                          
   //Types of Variable.
   var country ;
   String name;
+  int month;
   int age;                                                                                //number
   double weight;                                                                 //number
 
   bool  isTrue = true;                                                         //Boolean
   bool  isFalse = false;                                                     //Boolean
 
+  month = 10;
   country = 'Bangladesh';
   name = "MD Hasnain Rabby";
   weight = 73.56;
@@ -59,11 +61,22 @@ main()                                                                          
   }
 // for loop
 var Ramadan = "Possibility of Shob E Meraj ";
-for (int i = 20; i <= 30; i++)
-  {
-    if(  i % 2 != 0  ){
-      print("$Ramadan $i Ramadan.");
-    }
-
+for (int i = 20; i <= 30; i++) {
+  if (i % 2 != 0) {
+    print("$Ramadan $i Ramadan.");
   }
+}
+// while loop
+while (true)                                                                                 // infinite loop
+  {
+      print("I am here.");
+      break;
+  }
+
+// do while loop
+do
+{
+  print("Eid Mubarak.");
+} while( month == 8);
+
 }
