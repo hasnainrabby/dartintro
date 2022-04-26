@@ -1,7 +1,7 @@
 main()                                                                                //method/function> Entry point of a project for execution.
 {
   //Types of Variable.
-  /* var country ;
+  var country ;
   String name;
   int age;                                                                                //number
   double weight;                                                                 //number
@@ -56,7 +56,7 @@ main()                                                                          
     print("It's correct.");
   }else{
     print("It's wrong.");
-  }*/
+  }
 // for loop
 var Ramadan = "Possibility of Shob E Meraj ";
 for (int i = 20; i <= 30; i++)
