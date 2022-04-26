@@ -1,7 +1,7 @@
-main()
+main()                                                                                //method/function> Entry point of a project for execution.
 {
   //Types of Variable.
-  var country ;
+  /* var country ;
   String name;
   int age;                                                                                //number
   double weight;                                                                 //number
@@ -18,7 +18,7 @@ main()
   int b = 100;
   double  c = 10.5;
 
- var Additon = a + b;                                                   //Arithmetic Operators +,-,*,/,%
+ var additon = a + b;                                                   //Arithmetic Operators +,-,*,/,%
  var sub = b - a;
  var multiplication = a * c;
  var division = b/a;
@@ -32,7 +32,7 @@ main()
   print(isTrue);
   print(isFalse);
 
-  print("$Additon,\n $sub,\n $multiplication,\n $division, \n $remainder");
+  print("$additon,\n $sub,\n $multiplication,\n $division, \n $remainder");
 
   print(b >=age );                                                        // Relational Operators ==,!=,<,>,<=,>=
   
@@ -47,15 +47,23 @@ main()
 
   //Logical Operator ( !, ||, &&)
 
-  if ( !(Additon != 150) || age <=30 ){     //OR (||) ----> Only one side needs to be true then the expression is true.
+  if ( !(additon != 150) || age <=30 ){     //OR (||) ----> Only one side needs to be true then the expression is true.
     print("It's correct.");
   }else{
     print("It's wrong.");
   }
-  if ( (Additon != 150) && remainder == 5.5){     //AND (&&) ----> both sides are true then the expression is true.
+  if ( (additon != 150) && remainder == 5.5){     //AND (&&) ----> both sides are true then the expression is true.
     print("It's correct.");
   }else{
     print("It's wrong.");
-  }
+  }*/
+// for loop
+var Ramadan = "Possibility of Shob E Meraj ";
+for (int i = 20; i <= 30; i++)
+  {
+    if(  i % 2 != 0  ){
+      print("$Ramadan $i Ramadan.");
+    }
 
+  }
 }
