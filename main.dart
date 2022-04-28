@@ -60,7 +60,7 @@ main()                                                                          
     print("It's wrong.");
   }
 // for loop
-var Ramadan = "Possibility of Shob E Meraj ";
+var Ramadan = "Possibility of Shob E Qadar ";
 for (int i = 20; i <= 30; i++) {
   if (i % 2 != 0) {
     print("$Ramadan $i Ramadan.");
@@ -78,5 +78,23 @@ do
 {
   print("Eid Mubarak.");
 } while( month == 8);
+
+// switch case : The switch statement evaluates an expression,
+// matches the expression’s value to a case clause and executes the statements associated with that case.
+var number = 25;
+ switch(number)
+ {
+   case 20 :
+      print("Number is even.");
+      break;
+
+   case 25:
+     print("Number is odd.");
+     break;
+   default:
+     print("Default $number");
+
+ }
+
 
 }
